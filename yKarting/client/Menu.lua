@@ -113,7 +113,7 @@ function Kart10min(car)
       Citizen.Wait(0)
   end
 ESX.ShowNotification("<C>Karting ~y~"..KartingCFG.NomBase.."\n~s~Vous avez ~r~10 Minutes de Karting.")
-local timer = 10
+local timer = 600
 local breakable = false
 breakable = false
 while not breakable do
